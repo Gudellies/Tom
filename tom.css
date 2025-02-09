@@ -1,0 +1,230 @@
+
+        body
+        {
+            background-color: black;
+        }
+        .hi
+        {
+            rotate: -90deg;
+        }
+        #a
+        {
+            position: absolute;
+            content: '';
+            /* background-color: blue; */
+            border-width: 100px;
+            border-style: solid;
+            left: 100px;
+            top: 290px;
+            box-shadow: 0px 0px 20px rgb(27, 1, 1);
+        }
+        #b
+        {
+            position: absolute;
+            background-color: crimson;
+            content: '';
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-width: 50px;
+            border-style: solid;
+        }
+        #c1
+        {
+            margin: 450px;
+            width: 300px;
+            height: 250px;
+            background-color: bisque;
+            border-radius: 50%;
+            position: relative;
+        }
+        @keyframes identifier 
+        {
+            0%
+            {
+                filter: hue-rotate(10deg);
+                background-color:bisque;
+            }
+            100%
+            {
+                filter: hue-rotate(10deg);
+                background-color: black;
+            }
+        }
+        @keyframes tail 
+        {
+            0%
+            {
+                filter: hue-rotate(10deg);
+                background-color:black;
+            }
+            100%
+            {
+                filter: hue-rotate(10deg);
+                background-color: white;
+            }
+        }
+        #c2
+        {
+            position: absolute;
+            width: 250px;
+            height: 200px;
+            background-color:white;
+            border-radius: 50%;
+            top: 30px;
+            left: 25px;
+            box-shadow: 0px 0px 80px rgb(46, 45, 45);
+        }
+        #ear1
+        {
+            position: absolute;
+            content: '';
+            border-color: bisque transparent transparent transparent;
+            border-width: 40px;
+            border-style: solid;
+            left:500px ;
+            top: 425px;
+            rotate: -90deg;
+        }
+        #ear2
+        {
+            position: absolute;
+            content: '';
+            border-color: bisque transparent transparent transparent;
+            border-width: 40px;
+            border-style: solid;
+            left:637px ;
+            top: 424px;
+            rotate:90deg;
+        }
+        #eye1
+        {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+            border-radius: 100%;
+            top:45px;
+            left:45px;
+        }
+        #p1
+        {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            border-radius: 100%;
+            top:10px;
+            left:10px;
+            animation: identifier 3s ease 2s infinite normal;
+        }
+        #eye2
+        {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+            border-radius: 100%;
+            top:45px;
+            left:150px;
+        }
+        #p2
+        {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            border-radius: 100%;
+            top:10px;
+            left:10px;
+            animation: identifier 3s ease 2s infinite normal;
+        }
+        #nose
+        {
+            position: absolute;
+            width: 40px;
+            height: 30px;
+            background-color:red;
+            border-radius: 100%;
+            top:35px;
+            left:60px;
+        }
+        #mouth
+        {
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            background-color: red;
+            top:130px;
+            left:110px;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+        #body
+        {
+            position: absolute;
+            width: 220px;
+            height: 300px;
+            top: 650px;
+            left: 500px;
+            background-color: bisque;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 30%;
+            border-bottom-left-radius: 30%;
+        }
+        #l1
+        {
+            position: absolute;
+            width: 40px;
+            height: 70px;
+            background-color: white;
+            top: 920px;
+            left: 550px;
+            border-top-right-radius: 30%;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+        #l2
+        {
+            position: absolute;
+            width: 40px;
+            height: 70px;
+            background-color: white;
+            top: 920px;
+            left: 630px;
+            border-top-right-radius: 30%;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+        #h1
+        {
+            position: absolute;
+            width: 40px;
+            height: 180px;
+            background-color: white;
+            top: 700px;
+            left: 450px;
+            rotate: -45deg;
+            border-radius: 100%/80% 90%;
+            transform: rotate(10deg);
+            /* border-top-right-radius: 50%;
+            border-top-left-radius: 50%; */
+            animation: tail 2s ease 2s infinite alternate-reverse ;
+        }
+        #b1
+        {
+            position: absolute;
+            width: 130px;
+            height: 200px;
+            background-color: white;
+            top: 70px;
+            left: 45px;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            box-shadow: 0px 0px 80px rgb(46, 45, 45);
+        }
+    
